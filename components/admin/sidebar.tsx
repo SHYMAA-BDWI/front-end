@@ -8,7 +8,7 @@ type SidebarProps = {
   variant?: "default" | "identity";
 };
 
-export function Sidebar({ active, variant = "default" }: SidebarProps) {
+export default function Sidebar({ active, variant = "default" }: SidebarProps) {
   const isIdentity = variant === "identity";
 
   return (
@@ -23,7 +23,9 @@ export function Sidebar({ active, variant = "default" }: SidebarProps) {
           <Home className="h-5 w-5 text-white" strokeWidth={1.75} />
         </div>
         <div className="min-w-0">
-          <p className="text-lg font-bold leading-tight text-slate-900">عقارك</p>
+          <p className="text-lg font-bold leading-tight text-slate-900">
+            عقارك
+          </p>
           <p className="text-xs text-slate-500">
             {isIdentity ? "لوحة تحكم المشرف" : "لوحة الإدارة"}
           </p>
@@ -64,7 +66,9 @@ export function Sidebar({ active, variant = "default" }: SidebarProps) {
             أ
           </div>
           <div className="min-w-0 flex-1">
-            <p className="truncate text-sm font-semibold text-slate-900">أحمد محمد</p>
+            <p className="truncate text-sm font-semibold text-slate-900">
+              أحمد محمد
+            </p>
             <p className="truncate text-xs text-slate-500">مشرف رئيسي</p>
           </div>
           <button
