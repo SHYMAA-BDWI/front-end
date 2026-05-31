@@ -32,7 +32,7 @@ export const adminNav: NavItem[] = [
   {
     key: "users",
     label: "إدارة المستخدمين",
-    href: "/admin/users-create",
+    href: "/admin/users",
     icon: Users,
   },
   {
