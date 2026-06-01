@@ -4,7 +4,7 @@ import { adminNav, type NavKey } from "./nav-config";
 import { cn } from "@/lib/utils";
 
 type SidebarProps = {
-  active: NavKey;
+  active?: string;
   variant?: "default" | "identity";
 };
 

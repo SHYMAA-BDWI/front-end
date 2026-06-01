@@ -28,7 +28,7 @@ export type NavItem = {
 };
 
 export const adminNav: NavItem[] = [
-  { key: "home", label: "الرئيسية", href: "/admin/transactions", icon: Home },
+  { key: "home", label: "الرئيسية", href: "/admin/dashboard", icon: Home },
   {
     key: "users",
     label: "إدارة المستخدمين",
