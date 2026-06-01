@@ -55,5 +55,10 @@ export const adminNav: NavItem[] = [
   },
   { key: "support", label: "تذاكر الدعم", href: "#", icon: Ticket },
   { key: "reports", label: "التقارير", href: "#", icon: BarChart3 },
-  { key: "settings", label: "الإعدادات", href: "#", icon: Settings },
+  {
+    key: "settings",
+    label: "الإعدادات",
+    href: "/admin/settings",
+    icon: Settings,
+  },
 ];
