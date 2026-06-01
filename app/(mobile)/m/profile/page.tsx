@@ -16,11 +16,15 @@ export default function ProfileEditPage() {
         ].map(([label, value]) => (
           <div key={label} className="mb-3">
             <p className="mb-1 text-sm text-slate-500">{label}</p>
-            <div className="rounded-xl border border-slate-200 bg-slate-50 p-3">{value}</div>
+            <div className="rounded-xl border border-slate-200 bg-slate-50 p-3">
+              {value}
+            </div>
           </div>
         ))}
         <div className="mb-4 rounded-xl bg-emerald-50 p-3">
-          <p className="font-bold text-emerald-700">حالة الحساب: موثق من الإدارة</p>
+          <p className="font-bold text-emerald-700">
+            حالة الحساب: موثق من الإدارة
+          </p>
           <p className="text-sm text-slate-600">تم توثيق هويتك بنجاح.</p>
         </div>
         <button className="w-full rounded-xl bg-[#24a2de] py-3 text-xl font-bold text-white">

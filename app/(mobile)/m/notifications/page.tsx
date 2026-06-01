@@ -16,7 +16,9 @@ export default function NotificationsPage() {
             <CheckCircle2 className="h-5 w-5 text-emerald-500" />
             <div>
               <h3 className="text-2xl font-extrabold">تم قبول إعلانك</h3>
-              <p className="text-sm text-slate-600">شقة سكنية حي المزة - دمشق</p>
+              <p className="text-sm text-slate-600">
+                شقة سكنية حي المزة - دمشق
+              </p>
             </div>
           </div>
         </article>
@@ -25,7 +27,9 @@ export default function NotificationsPage() {
             <XCircle className="h-5 w-5 text-red-500" />
             <div>
               <h3 className="text-2xl font-extrabold">تم رفض طلب الشراء</h3>
-              <p className="text-sm text-slate-600">بسبب الفرق السعري عن التقييم</p>
+              <p className="text-sm text-slate-600">
+                بسبب الفرق السعري عن التقييم
+              </p>
             </div>
           </div>
         </article>
