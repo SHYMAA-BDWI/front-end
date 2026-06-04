@@ -1,6 +1,6 @@
 "use client";
-import Header from "../components/Header";
-import Footer from "../components/Footer";
+import Header from "@/components/mobile/Header";
+import Footer from "@/components/mobile/Footer";
 //import Footer from "@/components/Footer";
 import {
   Search,
