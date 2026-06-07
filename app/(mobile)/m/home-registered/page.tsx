@@ -1,9 +1,11 @@
-import React from "react";
+"use client";
+import React, { useState } from "react";
 import HeaderRegister from "@/components/mobile/HeaderRegister";
 import WelcomeBanner from "@/components/mobile/WelcomeBanner";
 import AdvancedSearch from "@/components/mobile/AdvancedSearch";
 import PropertyCardRegister from "@/components/mobile/PropertyCardRegister";
 import Footer from "@/components/mobile/Footer";
+import SidebarRegister from "@/components/mobile/SidebarRegister";
 
 export default function HomePage() {
   // محاكاة بيانات العقارات المميزة المأخوذة من واجهتك بالتفصيل
@@ -35,6 +37,7 @@ export default function HomePage() {
       isFavorite: false, // غير ممتلئ بالصورة الثانية
     },
   ];
+  const [isSidebarOpen, setIsSidebarOpen] = useState(false);
 
   return (
     // محاذاة وتنسيق الحاوية لتشبه شاشات الجوال المتجاوبة (Mobile-First)
@@ -44,7 +47,7 @@ export default function HomePage() {
     >
       <div className="bg-white max-w-md mx-auto min-h-screen shadow-md flex flex-col">
         {/* شريط التنقل العلوي */}
-        <HeaderRegister />
+        <HeaderRegister onMenuClick={() => setIsSidebarOpen(true)} />
 
         {/* بنر الترحيب للمسجلين */}
         <WelcomeBanner />
@@ -80,6 +83,10 @@ export default function HomePage() {
             />
           ))}
         </div>
+        <SidebarRegister
+          isOpen={isSidebarOpen}
+          onClose={() => setIsSidebarOpen(false)}
+        />
 
         {/* تذييل الصفحة */}
         <Footer />

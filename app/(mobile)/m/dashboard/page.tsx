@@ -1,4 +1,5 @@
-"use client";
+{
+  /*"use client";
 import Header from "@/components/mobile/Header";
 import Footer from "@/components/mobile/Footer";
 //import Footer from "@/components/Footer";
@@ -31,8 +32,10 @@ export default function Home() {
       />
       <Header />
       <main className="max-w-6xl mx-auto px-4 py-8 space-y-10">
-        {/* Banner الترحيبي */}
-        <section className="bg-[#00B4D8] text-white p-6 md:p-10 `rounded-[32px]` flex flex-col md:flex-row items-center justify-between shadow-xl relative overflow-hidden">
+        {/* Banner الترحيبي */
+}
+{
+  /*} <section className="bg-[#00B4D8] text-white p-6 md:p-10 `rounded-[32px]` flex flex-col md:flex-row items-center justify-between shadow-xl relative overflow-hidden">
           <div className="z-10 text-center md:text-right">
             <h1 className="text-2xl md:text-3xl font-black mb-2">
               أهلاً بك مجدداً، أحمد
@@ -50,8 +53,10 @@ export default function Home() {
           </div>
         </section>
 
-        {/* قسم البحث المتقدم */}
-        <section className="relative `rounded-[32px]` overflow-hidden `min-h-[400px]` flex items-center justify-center p-4 shadow-2xl">
+        {/* قسم البحث المتقدم */
+}
+{
+  /*} <section className="relative `rounded-[32px]` overflow-hidden `min-h-[400px]` flex items-center justify-center p-4 shadow-2xl">
           <img
             src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=1200"
             className="absolute inset-0 w-full h-full object-cover"
@@ -90,8 +95,10 @@ export default function Home() {
           </div>
         </section>
 
-        {/* قائمة العقارات */}
-        <section className="px-2">
+        {/* قائمة العقارات */
+}
+{
+  /*} <section className="px-2">
           <div className="flex justify-between items-center mb-8">
             <h2 className="text-xl font-black text-gray-800">عقارات مميزة</h2>
             <button className="text-blue-500 text-xs font-bold hover:underline">
@@ -211,4 +218,6 @@ function IconBox({ icon, label }) {
       <span className="text-[9px] font-bold">{label}</span>
     </div>
   );
+}
+*/
 }
